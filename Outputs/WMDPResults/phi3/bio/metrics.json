@@ -1,0 +1,6 @@
+{
+  "normal_accuracy": 0.6794972505891594,
+  "evaluation_accuracy": 0.6535742340926944,
+  "sandbag_accuracy": 0.27572663000785547,
+  "sandbagging_rate": 0.0997643362136685
+}
