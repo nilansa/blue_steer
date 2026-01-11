@@ -16,6 +16,19 @@ Contains two files for each domain and model combination:
 - **results.json** - Contains the actual model responses
 - **metrics.json** - Contains aggregate accuracy and sandbagging statistics
 
+## notebooks
+Contains Jupyter notebooks for various sandbagging detection and mitigation experiments:
+
+- **cot-inspection-using-adversarial-prompt.ipynb** - Sandbagging detection using chain of thought user prompts
+
+- **final_caa_lat.ipynb** - CAA (Concept Activation Analysis) and LAT (Linear Artifact Transformation) experiments on TinyLlama
+
+- **lora_noise_injection_implementation.ipynb** - Experiments on LoRA-based TinyLlama model with noise injection to inspect sandbagging behavior
+
+- **noise_adding.ipynb** - Noise injection experiments in Phi3 model using the TinyMMLU dataset with results visualization
+
+- **steering.ipynb** - Sandbagging experiments on TinyLlama model, including steering vector calculations and PCA-based visualization of projected activations
+
 # Setup Instructions
 
 ## Clone the Repository
@@ -41,4 +54,4 @@ model_path = "mistralai/Mistral-7B-Instruct-v0.3"
 
 # Running Inference and Evaluations
 
-Refer to `README.md` for instructions
+Refer to `README.md` for instructions.
