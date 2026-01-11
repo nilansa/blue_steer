@@ -1,11 +1,11 @@
 import os
 import json
 
-BASE_DIR = "WMDPResults"
+BASE_DIR = "/Outputs/WMDPResults"
 MODELS = ["llama3", "mistral", "phi3"]
 DOMAINS = ["bio", "chem", "cyber"]
 
-OUTPUT_DIR = os.path.join(BASE_DIR, "Aggregated")
+OUTPUT_DIR = os.path.join(BASE_DIR, "aggregated")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
