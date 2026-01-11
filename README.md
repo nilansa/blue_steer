@@ -1,4 +1,3 @@
-```markdown
 # Directory Structure
 
 ## InferenceWMDP
@@ -26,9 +25,7 @@ cd BLUE_STEER
 ```
 
 ## Model Configuration
-
 For open-source models that run locally on GPUs and load directly from the Hugging Face Hub using the transformers library, specify the Hugging Face model ID as follows:
-
 ```python
 # LLaMA-3 8B Instruct
 model_path = "meta-llama/Meta-Llama-3-8B-Instruct"
@@ -45,4 +42,3 @@ model_path = "mistralai/Mistral-7B-Instruct-v0.3"
 # Running Inference and Evaluations
 
 Refer to `experiments/README.md` for detailed instructions.
-```
