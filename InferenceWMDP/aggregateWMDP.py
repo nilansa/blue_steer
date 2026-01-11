@@ -1,7 +1,7 @@
 import os
 import json
 
-BASE_DIR = "/Outputs/WMDPResults"
+BASE_DIR = "/outputs/WMDPResults"
 MODELS = ["llama3", "mistral", "phi3"]
 DOMAINS = ["bio", "chem", "cyber"]
 

@@ -1,6 +1,6 @@
 # Directory Structure
 
-## InferenceWMDP
+## inferenceWMDP
 Contains scripts for WMDP inference on 3 models:
 - Mistral 7B-Instruct
 - Phi-3 Mini 128K Instruct
@@ -11,7 +11,7 @@ Also includes scripts to aggregate results for questions affected by sandbagging
 - Chem
 - Cyber
 
-## Outputs/WMDPResults
+## outputs/WMDPResults
 Contains two files for each domain and model combination:
 - **results.json** - Contains the actual model responses
 - **metrics.json** - Contains aggregate accuracy and sandbagging statistics

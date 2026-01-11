@@ -228,7 +228,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", required=True, choices=MODEL_REGISTRY.keys())
     parser.add_argument("--domain", required=True, choices=["bio", "chem", "cyber"])
     parser.add_argument("--limit", type=int, default=None)
-    parser.add_argument("--output_dir", default="./Outputs/WMDPResults")
+    parser.add_argument("--output_dir", default="./outputs/WMDPResults")
     args = parser.parse_args()
     main(args)
 
