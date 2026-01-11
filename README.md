@@ -41,4 +41,4 @@ model_path = "mistralai/Mistral-7B-Instruct-v0.3"
 
 # Running Inference and Evaluations
 
-Refer to `experiments/README.md` for detailed instructions.
+Refer to `README.md` for instructions
